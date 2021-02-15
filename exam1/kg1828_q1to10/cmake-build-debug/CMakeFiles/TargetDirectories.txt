@@ -1,0 +1,3 @@
+/Users/kbgazzaz/Desktop/kg1828_q1to10/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/kbgazzaz/Desktop/kg1828_q1to10/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/kbgazzaz/Desktop/kg1828_q1to10/cmake-build-debug/CMakeFiles/kg1828_q1to10.dir
