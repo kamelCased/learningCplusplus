@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kbgazzaz/Desktop/NYU Bridge Homework/HW5/kg1828_hw5_q2/main.cpp
+iostream
+-
+cstdlib
+-
+ctime
+-
+
