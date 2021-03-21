@@ -88,8 +88,13 @@ int main1() {
     findInArray(inputArr, inputArrSize, searchNum, indicesFound, indicesFoundSize);
 
     // Output results
-    cout << searchNum << " shows in lines ";
-    printArray(indicesFound, indicesFoundSize);
+    if (indicesFoundSize > 0) {
+        cout << searchNum << " shows in lines ";
+        printArray(indicesFound, indicesFoundSize);
+    }
+    else {
+        cout << searchNum << " does not show in your array of integers.";
+    }
 
     // (free memory)
     delete[] inputArr, indicesFound;
@@ -110,8 +115,13 @@ int main2() {
     vector<int> foundIndices = findInVec(numVec, searchNum);
 
     // Output the results
-    cout << searchNum << " shows in lines ";
-    printVec(foundIndices);
+    if (foundIndices.size() > 0) {
+        cout << searchNum << " shows in lines ";
+        printVec(foundIndices);
+    }
+    else {
+        cout << searchNum << " does not show in your array of integers.";
+    }
 
     return 0;
 }
