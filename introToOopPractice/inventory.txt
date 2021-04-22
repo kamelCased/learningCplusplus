@@ -1,0 +1,7 @@
+7 crates of pears
+3 crates of apples
+2 crates of mangoes
+1 crate of cherries
+10 crates of blueberries
+100000 crates of figs
+
